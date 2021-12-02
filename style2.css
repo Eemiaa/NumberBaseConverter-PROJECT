@@ -1,0 +1,35 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.converter-body{
+	width: 500px;
+	height: 200px;
+	background: grey;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: 0px 0px 2px 1px #cacaca;
+}
+.converter-title{
+	text-align: center;
+	margin: 13px 0px;
+}
+input{
+	height: 30px;
+}
+#input{
+	margin-left: 50px;
+}
+#inputType,#resultType{
+	width: 100px;
+	margin-left: 135px;
+	color: red;
+}
+#resultType{
+	margin-left: 12.5px;
+}
+#botao{
+	margin-left: 210px;
+}

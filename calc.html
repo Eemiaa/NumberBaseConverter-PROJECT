@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Conversor de unidades computacionais</title>
+	<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+	<div class="converter-body">
+		<h1 class="converter-title">Conversor de bases numéricas</h1>
+		<input type="text" placeholder="Input" id="input">
+		<span>=</span>
+		<input type="text" placeholder="Result" id="result">
+
+
+		<select id="inputType">
+			<option value="binario">binário</option>
+			<option value="octal">octal</option>
+			<option value="decimal">decimal</option>
+			<option value="hexadecimal">hexadecimal</option>
+		</select>
+
+		<select id="resultType">
+			<option value="binario">binário</option>
+			<option value="octal">octal</option>
+			<option value="decimal">decimal</option>
+			<option value="hexadecimal">hexadecimal</option>
+		</select>
+
+		<button id="botao" type="button" onclick="updateResult()">converta</button>
+
+
+	</div>
+	<script src="main2.js"></script>
+</body>
+</html>
